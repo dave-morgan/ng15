@@ -1,0 +1,10 @@
+{
+    "compilerOptions" : {
+        "paths": {
+            "app/*": ["src/app/*"],
+            "shared/*": ["src/shared/*"],
+            "login/*": ["src/features/login/*"]
+        }
+    }
+    
+}

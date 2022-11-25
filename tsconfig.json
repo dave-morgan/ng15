@@ -1,5 +1,9 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
+/* 
+  To learn more about this file see: https://angular.io/config/tsconfig.
+  To add TS Path aliases use tsconfig.paths.json 
+*/
 {
+  "extends": "./tsconfig.paths.json",
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
@@ -22,7 +26,7 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
